@@ -1,0 +1,39 @@
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 50vh;
+    width: 50vw;
+    background: grey;
+}
+
+.wrapper input {
+    height: 1.5rem;
+    width: 10vw;
+    border: none;
+    border-radius: 6px;
+}
+
+.wrapper input:enabled {
+    outline: none;
+}
+
+.btn {
+    width: 10vw;
+    height: 2rem;
+    border-radius: 6px;
+    border: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}

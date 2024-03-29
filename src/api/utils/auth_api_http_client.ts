@@ -1,4 +1,4 @@
-export const BASE_URL = "http://localhost:5000/auth/";
+export const BASE_URL = process.env.AUTH_SERVER_BASE_URL;
 
 export async function get(endpoint: string) {
     try {

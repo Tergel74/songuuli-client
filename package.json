@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-google-maps/api": "^2.19.3",
     "cookie-cutter": "^0.2.0",
     "cookies-next": "^4.1.1",
     "google-map-react": "^2.2.1",

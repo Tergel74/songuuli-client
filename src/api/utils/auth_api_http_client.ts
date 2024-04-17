@@ -1,4 +1,4 @@
-export const BASE_URL = process.env.AUTH_SERVER_BASE_URL;
+export const BASE_URL = process.env.NEXT_PUBLIC_AUTH_SERVER_BASE_URL;
 
 export async function get(endpoint: string) {
     try {

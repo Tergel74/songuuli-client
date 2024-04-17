@@ -1,13 +1,12 @@
 import { get, post } from "../utils/api_http_client";
 
 export async function getUser() {
-    console.log("getUser");
     try {
-        const data = await get("user/me");
-        console.log(data);
+        const res = await get("user/me");
+        console.log(res);
 
         return {
-            user: data,
+            user: res,
             error: null,
         };
     } catch (err) {
